@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5263863954792488489}
   - component: {fileID: -5575330452899743985}
   - component: {fileID: 1434415743844786147}
+  - component: {fileID: 5394981772536154065}
   m_Layer: 0
   m_Name: Baguette_03_End
   m_TagString: Untagged
@@ -115,3 +116,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b33fa1f32a6267c4eb5faa978f68e1aa, type: 3}
+--- !u!114 &5394981772536154065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763466573781985916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909d917d73a63f940ac158d02e936645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  canPush: 1
+  strength: 1.1

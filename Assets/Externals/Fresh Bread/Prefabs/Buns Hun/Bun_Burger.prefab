@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8585554211282476461}
   - component: {fileID: 141993111811494371}
   - component: {fileID: 7667632680827283364}
+  - component: {fileID: -3035236080719706098}
   m_Layer: 0
   m_Name: Bun_Burger
   m_TagString: Untagged
@@ -98,3 +99,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0f0ced21a4fb340469d7cb4ca3df72be, type: 3}
+--- !u!114 &-3035236080719706098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753033533134920868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909d917d73a63f940ac158d02e936645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  canPush: 0
+  strength: 1.1
