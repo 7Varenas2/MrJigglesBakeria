@@ -45,13 +45,12 @@ public class DragAndDrop : MonoBehaviour
                 StartCoroutine(DragUpdate(hit.collider.gameObject));
             }
         }
-
-      
+    
     }
 
     private IEnumerator DragUpdate(GameObject go)
     {
-        if (go.tag != "Environment")
+        if (go.tag != "Environment" && go.tag != "Button")
         {
             float initialDistance = Vector3.Distance(go.transform.position, mainCamera.transform.position);
             go.TryGetComponent<Rigidbody>(out var rb);
@@ -72,8 +71,5 @@ public class DragAndDrop : MonoBehaviour
 
             }
         }
-        
-
     }
-
 }
