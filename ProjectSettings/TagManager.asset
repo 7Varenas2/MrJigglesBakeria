@@ -5,15 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - DoorButton
+  - Button1
+  - Button2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interact
   - Water
   - UI
-  - 
-  - 
+  - ButtonL1
+  - ButtonL2
   - Character
   - Ground
   - 
